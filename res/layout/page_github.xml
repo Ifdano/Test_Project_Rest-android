@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding = "@dimen/_10sdp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.60"
+        android:orientation="vertical">
+    
+    	<TextView
+        	android:id = "@+id/textInfo"
+        	android:layout_width = "match_parent"
+        	android:layout_height = "wrap_content"
+        	android:text = "@string/textInfo"
+        	android:textSize = "@dimen/_20ssp"
+        	android:textStyle = "bold"
+        	android:layout_gravity = "center"
+        	android:gravity = "center"
+        	/>
+    	
+    	<ImageView
+    	    android:id = "@+id/imageAvatar"
+    	    android:layout_width = "@dimen/_150sdp"
+    	    android:layout_height = "@dimen/_150sdp"
+    	    android:layout_gravity = "center"
+    	    android:gravity = "center"
+    	    android:src = "@drawable/noimage"
+    	    android:layout_marginTop = "@dimen/_10sdp"
+    	    />
+		
+    	<ScrollView
+    	    android:id = "@+id/scrollTextInfo"
+    	    android:layout_width = "match_parent"
+    	    android:layout_height = "match_parent"
+    	    android:layout_marginTop = "@dimen/_10sdp">
+    	
+    		<TextView
+        		android:id = "@+id/textInfoData"
+        		android:layout_width = "match_parent"
+        		android:layout_height = "wrap_content"
+        		android:hint = "@string/textInfoHint"
+        		android:textSize = "@dimen/_20ssp"
+        		android:gravity = "center"
+        		/>
+    	
+    	</ScrollView>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        android:layout_marginTop = "@dimen/_10sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        >
+        
+        <Button
+            android:id = "@+id/buttonUpdate"
+            android:layout_width = "@dimen/_120sdp"
+            android:layout_height = "@dimen/_40sdp"
+            android:text = "@string/buttonUpdate"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:textColor = "#FDFFFC"
+            android:background = "#2A9D8F"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            />
+        
+        <Button
+            android:id = "@+id/buttonDelete"
+            android:layout_width = "@dimen/_120sdp"
+            android:layout_height = "@dimen/_40sdp"
+            android:text = "@string/buttonDelete"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:textColor = "#FDFFFC"
+            android:background = "#EE6C4D"
+            android:layout_gravity = "end"
+            android:gravity = "center"
+            android:layout_marginLeft = "@dimen/_15sdp"
+            />
+        
+    </LinearLayout>
+    
+    <Button
+        android:id = "@+id/buttonBack"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonBack"
+        android:textStyle = "bold"
+        android:textSize = "@dimen/_20ssp"
+        android:textColor = "#FDFFFC"
+        android:background = "#000000"
+        android:layout_gravity = "end"
+        android:gravity = "center"
+        android:padding = "@dimen/_5sdp"
+        android:layout_marginTop = "@dimen/_10sdp"
+        />
+
+</LinearLayout>

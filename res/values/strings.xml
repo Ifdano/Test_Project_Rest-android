@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDemoRest</string>
+    
+    <string name="buttonBack">return to menu</string>
+    
+    <!-- activity_main -->
+    <string name="mainText">What current data do you want?</string>
+    
+    <string name="buttonWeather">Weather</string>
+    <string name="buttonJoke">Joke</string>
+    <string name="buttonGithub">Github</string>
+
+    <!-- activity_weather -->
+    <string name="weatherText">Current Weather</string>
+    
+    <string name="weatherEdit">Enter a city name</string>
+    <string name="buttonGetWeather">Get data</string>
+    <string name="weatherTextChoose">Choose weather data</string>
+    
+    <!-- activity_joke -->
+    <string name="jokeText">Current Jokes</string>
+    
+    <string name="buttonGetJoke">Get joke</string>
+    <string name="jokeTextChoose">Choose joke</string>
+    
+    <!-- activity_github -->
+    <string name="githubText">Current Github Users</string>
+    
+    <string name="githubEdit">Enter username</string>
+    <string name="buttonGetGithub">Get data</string>
+    <string name="githubTextChoose">Choose user data</string>
+    
+    <!-- for all page -->    
+    <string name="textInfo">The currently selected data</string>
+    <string name="textInfoHint">no data</string>
+    <string name="buttonUpdate">UPDATE</string>
+    <string name="buttonDelete">DELETE</string>
+    
+    <!-- edit pages  -->
+    <string name="textInfoEdit">Make the required change to data</string>
+    <string name="buttonSubmit">SUBMIT</string>
+    <string name="buttonCancel">CANCEL</string>
+    <string name="editHint">no data</string>
+    
+    <!--  weather items -->
+    <string name="weatherCity">City</string>
+    <string name="weatherDate">Date</string>
+    <string name="weatherDescription">Description</string>
+    <string name="weatherTemperature">Temperature</string>
+    <string name="weatherPressure">Pressure</string>
+    <string name="weatherHumidity">Humidity</string>
+    <string name="weatherSpeed">Wind Speed</string>
+    
+    <!--  joke items -->
+    <string name="jokeSetup">Setup</string>
+    <string name="jokePunchline">Punchline</string>
+    
+    <!--  github items -->
+    <string name="githubUsername">Username</string>
+    <string name="githubName">Name</string>
+    <string name="githubUrl">URL</string>
+    <string name="githubAvatarUrl">Avatar Url</string>
+    <string name="githubCreatedDate">Created Date</string>
+    
+</resources>

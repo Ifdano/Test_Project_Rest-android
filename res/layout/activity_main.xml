@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#000000"
+    android:padding = "@dimen/_10sdp"
+    android:orientation = "vertical">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical"
+        android:background = "#F1FAEE"
+		android:layout_margin = "@dimen/_2sdp"
+		android:padding = "@dimen/_10sdp"
+        >
+    
+   		 <TextView
+       		 android:id = "@+id/mainText"
+       		 android:layout_width = "match_parent"
+      		 android:layout_height = "match_parent"
+      		 android:text = "@string/mainText"
+      		 android:textSize = "@dimen/_20ssp"
+       		 android:textStyle = "bold"
+       		 android:layout_gravity = "center"
+       		 android:gravity = "center"
+       		 android:layout_weight = "2"
+       		 />
+   		 
+   		 <LinearLayout
+         	  android:layout_width = "match_parent"
+        	  android:layout_height = "match_parent"
+      	      android:orientation = "vertical"
+      	      android:layout_weight = "1"
+              >
+   		 
+   				 <Button
+   		   		    android:id = "@+id/buttonWeather"
+   		    	    android:layout_width = "@dimen/_120sdp"
+   		    	    android:layout_height = "@dimen/_40sdp"
+   		   	        android:text = "@string/buttonWeather"
+   		   		    android:textSize = "@dimen/_20ssp"
+   		   		    android:textStyle = "bold"
+   		   		    android:textColor = "#FDFFFC"
+   		    		android:background = "#011627"
+   		    	    android:layout_gravity = "center"
+   		    	    android:gravity = "center"
+   		    	    android:padding = "@dimen/_5sdp"
+   		     	    android:layout_marginTop = "@dimen/_10sdp"
+   		     	    />
+   		 	
+   				 <Button
+   		   		    android:id = "@+id/buttonJoke"
+   		    	    android:layout_width = "@dimen/_120sdp"
+   		    	    android:layout_height = "@dimen/_40sdp"
+   		   	        android:text = "@string/buttonJoke"
+   		   		    android:textSize = "@dimen/_20ssp"
+   		   		    android:textStyle = "bold"
+   		   		    android:textColor = "#FDFFFC"
+   		    		android:background = "#E71D36"
+   		    	    android:layout_gravity = "center"
+   		    	    android:gravity = "center"
+   		    	    android:padding = "@dimen/_5sdp"
+   		     	    android:layout_marginTop = "@dimen/_10sdp"
+   		     	    />
+   				 
+   				 <Button
+   		   		    android:id = "@+id/buttonGithub"
+   		    	    android:layout_width = "@dimen/_120sdp"
+   		    	    android:layout_height = "@dimen/_40sdp"
+   		   	        android:text = "@string/buttonGithub"
+   		   		    android:textSize = "@dimen/_20ssp"
+   		   		    android:textStyle = "bold"
+   		   		    android:textColor = "#FDFFFC"
+   		    		android:background = "#2B2D42"
+   		    	    android:layout_gravity = "center"
+   		    	    android:gravity = "center"
+   		    	    android:padding = "@dimen/_5sdp"
+   		     	    android:layout_marginTop = "@dimen/_10sdp"
+   		     	    />
+   		 
+   		 </LinearLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>

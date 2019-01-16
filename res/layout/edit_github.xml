@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" 
+    android:padding = "@dimen/_10sdp">
+    
+    <TextView
+    	android:id = "@+id/textInfoEdit"
+    	android:layout_width = "wrap_content"
+    	android:layout_height = "wrap_content"
+    	android:text = "@string/textInfoEdit"
+    	android:textSize = "@dimen/_20ssp"
+    	android:textStyle = "bold"
+    	android:layout_gravity = "center"
+    	android:gravity = "center"
+        />
+    
+    <ScrollView
+        android:id="@+id/scrollTextInfoEdit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_weight="2" >
+        
+    	<LinearLayout
+       		android:layout_width = "match_parent"
+        	android:layout_height = "wrap_content"
+        	android:orientation = "vertical">
+    	    
+    	    <TextView
+    			android:layout_width = "wrap_content"
+    			android:layout_height = "wrap_content"
+    			android:text = "@string/githubUsername"
+    			android:textSize = "@dimen/_20ssp"
+    			android:textStyle = "bold"
+    			android:layout_gravity = "center"
+    			android:gravity = "center"
+        		/>
+    	    
+        	<EditText
+        	    android:id = "@+id/editUsername"
+        	    android:layout_width = "match_parent"
+        	    android:layout_height = "wrap_content"
+        	    android:hint = "@string/editHint"
+        	    android:ems = "15"
+        	    android:textSize = "@dimen/_20ssp"
+        	    android:inputType = "text"
+        	    android:layout_gravity = "center"
+        	    />
+        
+        	<TextView
+    			android:layout_width = "wrap_content"
+    			android:layout_height = "wrap_content"
+    			android:text = "@string/githubName"
+    			android:textSize = "@dimen/_20ssp"
+    			android:textStyle = "bold"
+    			android:layout_gravity = "center"
+    			android:gravity = "center"
+    			android:layout_marginTop = "@dimen/_10sdp"
+        		/>
+        	
+        	<EditText
+        	    android:id = "@+id/editName"
+        	    android:layout_width = "match_parent"
+        	    android:layout_height = "wrap_content"
+        	    android:hint = "@string/editHint"
+        	    android:ems = "15"
+        	    android:textSize = "@dimen/_20ssp"
+        	    android:inputType = "text"
+        	    android:layout_gravity = "center"
+        	    />
+        
+        	<TextView
+    			android:layout_width = "wrap_content"
+    			android:layout_height = "wrap_content"
+    			android:text = "@string/githubUrl"
+    			android:textSize = "@dimen/_20ssp"
+    			android:textStyle = "bold"
+    			android:layout_gravity = "center"
+    			android:gravity = "center"
+    			android:layout_marginTop = "@dimen/_10sdp"
+        		/>
+        	
+        	<EditText
+        	    android:id = "@+id/editUrl"
+        	    android:layout_width = "match_parent"
+        	    android:layout_height = "wrap_content"
+        	    android:hint = "@string/editHint"
+        	    android:ems = "15"
+        	    android:textSize = "@dimen/_20ssp"
+        	    android:inputType = "text"
+        	    android:layout_gravity = "center"
+        	    />
+        	
+        	<TextView
+    			android:layout_width = "wrap_content"
+    			android:layout_height = "wrap_content"
+    			android:text = "@string/githubAvatarUrl"
+    			android:textSize = "@dimen/_20ssp"
+    			android:textStyle = "bold"
+    			android:layout_gravity = "center"
+    			android:gravity = "center"
+    			android:layout_marginTop = "@dimen/_10sdp"
+        		/>
+        
+        	<EditText
+        	    android:id = "@+id/editAvatarUrl"
+        	    android:layout_width = "match_parent"
+        	    android:layout_height = "wrap_content"
+        	    android:hint = "@string/editHint"
+        	    android:ems = "15"
+        	    android:textSize = "@dimen/_20ssp"
+        	    android:inputType = "text"
+        	    android:layout_gravity = "center"
+        	    />
+        
+        	<TextView
+    			android:layout_width = "wrap_content"
+    			android:layout_height = "wrap_content"
+    			android:text = "@string/githubCreatedDate"
+    			android:textSize = "@dimen/_20ssp"
+    			android:textStyle = "bold"
+    			android:layout_gravity = "center"
+    			android:gravity = "center"
+    			android:layout_marginTop = "@dimen/_10sdp"
+        		/>
+        	
+        	<EditText
+        	    android:id = "@+id/editCreatedDate"
+        	    android:layout_width = "match_parent"
+        	    android:layout_height = "wrap_content"
+        	    android:hint = "@string/editHint"
+        	    android:ems = "15"
+        	    android:textSize = "@dimen/_20ssp"
+        	    android:inputType = "text"
+        	    android:layout_gravity = "center"
+        	    />
+
+        </LinearLayout>
+        	
+    </ScrollView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_weight="0.40"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id = "@+id/buttonSubmit"
+            android:layout_width = "@dimen/_120sdp"
+            android:layout_height = "@dimen/_40sdp"
+            android:text = "@string/buttonSubmit"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:textColor = "#FDFFFC"
+            android:background = "#1A936F"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            />
+        
+        <Button
+            android:id = "@+id/buttonCancel"
+            android:layout_width = "@dimen/_120sdp"
+            android:layout_height = "@dimen/_40sdp"
+            android:text = "@string/buttonCancel"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:textColor = "#FDFFFC"
+            android:background = "#E71D36"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            android:layout_marginLeft = "@dimen/_15sdp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

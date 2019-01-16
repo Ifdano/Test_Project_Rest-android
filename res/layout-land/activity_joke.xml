@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding = "@dimen/_10sdp">
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id = "@+id/jokeText"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "@string/jokeText"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            />
+
+        <Button
+            android:id = "@+id/buttonGetJoke"
+            android:layout_width = "@dimen/_120sdp"
+            android:layout_height = "@dimen/_40sdp"
+            android:text = "@string/buttonGetJoke"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:textColor = "#FDFFFC"
+            android:background = "#E71D36"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            android:layout_marginTop = "@dimen/_10sdp"
+            />
+        
+        <Button
+        	android:id = "@+id/buttonBack"
+        	android:layout_width = "wrap_content"
+        	android:layout_height = "wrap_content"
+        	android:text = "@string/buttonBack"
+        	android:textStyle = "bold"
+        	android:textSize = "@dimen/_20ssp"
+        	android:textColor = "#FDFFFC"
+        	android:background = "#000000"
+        	android:layout_gravity = "center"
+        	android:gravity = "center"
+        	android:padding = "@dimen/_5sdp"
+        	android:layout_marginTop = "@dimen/_40sdp"
+        	/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1"
+        android:orientation = "vertical"
+        >
+       
+        <TextView
+            android:id = "@+id/textChoose"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "@string/jokeTextChoose"
+            android:textSize = "@dimen/_20ssp"
+            android:textStyle = "bold"
+            android:layout_gravity = "center"
+            android:gravity = "center"
+            />
+    
+    	<fragment
+        	android:id = "@+id/listFragment"
+        	android:name = "com.example.testdemorest.ListClass"
+        	android:layout_width = "match_parent"
+        	android:layout_height = "match_parent"
+        	android:layout_gravity = "center"
+        	android:gravity = "center"
+        	tools:layout = "@layout/list_fragment"
+        	/>
+    
+    </LinearLayout>
+
+</LinearLayout>
